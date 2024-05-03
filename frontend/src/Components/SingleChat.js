@@ -33,7 +33,8 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     };
 
     //const ENDPOINT = "http://localhost:4000"; // 
-    const socket = useMemo(() => io("http://localhost:4000"), []);
+    //const socket = useMemo(() => io("http://localhost:4000"), []);
+const socket = useMemo(() => io("https://talkandtalkchat.onrender.com"), []);
     // var socket;
     var selectedChatCompare;
 
