@@ -1,0 +1,16 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    color: purple;
+    font-size: large;
+    font-weight: 500;
+    scrollbar-width: none;
+    height: 70vh;
+    scroll-behavior: smooth;
+
+
+}
+
+.chatBox {
+    width: 100%;
+}

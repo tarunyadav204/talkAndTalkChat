@@ -1,0 +1,17 @@
+#fname-label {
+    font-size: 20px;
+}
+
+#fname::placeholder {
+    color: black;
+}
+
+#fname {
+    font-size: 18px;
+}
+
+#fname input {
+    border: none;
+    outline: none;
+}
+

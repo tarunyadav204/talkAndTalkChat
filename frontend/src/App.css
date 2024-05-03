@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.App {
+  font-family: "Roboto Slab", serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4203a9, #90bafc);
+  display: flex;
+  color: black;
+}
+
+.css-jlgtuz {
+  border: none;
+  color: floralwhite;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
